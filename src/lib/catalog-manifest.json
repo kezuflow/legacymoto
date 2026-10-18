@@ -1,0 +1,67 @@
+{
+  "assets": {
+    "spyder-corsa-plain-v2": {
+      "src": "/images/catalog/spyder-corsa-plain-v2-cutout-v1.webp",
+      "original": "/images/catalog/originals/spyder.png",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://www.teamspyder.com/products/spyder-corsa-plain-v2",
+      "cutout": "/images/catalog/cutouts/spyder-corsa-plain-v2-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    },
+    "gille-circuit-racer": {
+      "src": "/images/catalog/gille-circuit-racer-cutout-v1.webp",
+      "original": "/images/catalog/originals/gille-racer.jpg",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://shopee.ph/Gille-FF012-Circuit-Racer-Full-Face-Dual-Visor-Motorcycle-Helmet-i.505955057.27316992114",
+      "cutout": "/images/catalog/cutouts/gille-circuit-racer-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    },
+    "nhk-gp-r-tech-mandalika": {
+      "src": "/images/catalog/nhk-gp-r-tech-mandalika-cutout-v1.webp",
+      "original": "/images/catalog/originals/nhk.jpg",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://helmnhk.com/helmets/full-face/gp-r-tech-street/",
+      "cutout": "/images/catalog/cutouts/nhk-gp-r-tech-mandalika-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    },
+    "mt-stinger-2-solid": {
+      "src": "/images/catalog/mt-stinger-2-solid-cutout-v1.webp",
+      "original": "/images/catalog/originals/mt.png",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://www.teamspyder.com/products/mt-stinger-2-solid",
+      "cutout": "/images/catalog/cutouts/mt-stinger-2-solid-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    },
+    "spyder-phantom": {
+      "src": "/images/catalog/spyder-phantom-cutout-v1.webp",
+      "original": "/images/catalog/originals/spyder-phantom.png",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://www.teamspyder.com/products/spyder-phantom",
+      "cutout": "/images/catalog/cutouts/spyder-phantom-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    },
+    "spyder-barrel": {
+      "src": "/images/catalog/spyder-barrel-cutout-v1.webp",
+      "original": "/images/catalog/originals/spyder-barrel.png",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://www.teamspyder.com/products/spyder-barrel",
+      "cutout": "/images/catalog/cutouts/spyder-barrel-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    },
+    "scs-s8-x": {
+      "src": "/images/catalog/scs-s8-x-cutout-v1.webp",
+      "original": "/images/catalog/originals/scs-intercom-s8x.png",
+      "width": 1200,
+      "height": 1200,
+      "source": "https://www.teamspyder.com/products/scs-intercom-s8x",
+      "cutout": "/images/catalog/cutouts/scs-s8-x-cutout-v1.png",
+      "processing": "ImageGen background extraction"
+    }
+  }
+}

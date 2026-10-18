@@ -1,0 +1,44 @@
+[
+  {
+    "name": "spyder-corsa-plain-v2",
+    "hasAlpha": true,
+    "transparentPixels": 610636,
+    "totalPixels": 1440000
+  },
+  {
+    "name": "gille-circuit-racer",
+    "hasAlpha": true,
+    "transparentPixels": 641374,
+    "totalPixels": 1440000
+  },
+  {
+    "name": "nhk-gp-r-tech-mandalika",
+    "hasAlpha": true,
+    "transparentPixels": 694790,
+    "totalPixels": 1440000
+  },
+  {
+    "name": "mt-stinger-2-solid",
+    "hasAlpha": true,
+    "transparentPixels": 656401,
+    "totalPixels": 1440000
+  },
+  {
+    "name": "spyder-phantom",
+    "hasAlpha": true,
+    "transparentPixels": 1006860,
+    "totalPixels": 1440000
+  },
+  {
+    "name": "spyder-barrel",
+    "hasAlpha": true,
+    "transparentPixels": 948730,
+    "totalPixels": 1440000
+  },
+  {
+    "name": "scs-s8-x",
+    "hasAlpha": true,
+    "transparentPixels": 950950,
+    "totalPixels": 1440000
+  }
+]

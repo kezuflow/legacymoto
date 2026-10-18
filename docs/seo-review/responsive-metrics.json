@@ -1,0 +1,58 @@
+[
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 740,
+    "navCollision": false,
+    "pageWidth": 308,
+    "width": 320
+  },
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 844,
+    "navCollision": false,
+    "pageWidth": 378,
+    "width": 390
+  },
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 1024,
+    "navCollision": false,
+    "pageWidth": 756,
+    "width": 768
+  },
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 768,
+    "navCollision": false,
+    "pageWidth": 1012,
+    "width": 1024
+  },
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 900,
+    "navCollision": false,
+    "pageWidth": 1089,
+    "width": 1101
+  },
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 1000,
+    "navCollision": false,
+    "pageWidth": 1428,
+    "width": 1440
+  },
+  {
+    "clipped": [],
+    "faqCount": 9,
+    "height": 1080,
+    "navCollision": false,
+    "pageWidth": 1908,
+    "width": 1920
+  }
+]

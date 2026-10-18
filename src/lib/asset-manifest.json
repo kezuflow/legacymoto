@@ -1,0 +1,101 @@
+{
+  "mode": "built-in ImageGen",
+  "assets": {
+    "hero-rider": {
+      "src": "/images/hero-rider.webp",
+      "original": "/images/originals/hero-rider.png",
+      "width": 1600,
+      "height": 1050
+    },
+    "helmet-spyder": {
+      "src": "/images/helmet-spyder.webp",
+      "original": "/images/originals/helmet-spyder.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "helmet-gille": {
+      "src": "/images/helmet-gille.webp",
+      "original": "/images/originals/helmet-gille.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "helmet-mt": {
+      "src": "/images/helmet-mt.webp",
+      "original": "/images/originals/helmet-mt.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "helmet-nhk": {
+      "src": "/images/helmet-nhk.webp",
+      "original": "/images/originals/helmet-nhk.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "riding-jacket": {
+      "src": "/images/riding-jacket.webp",
+      "original": "/images/originals/riding-jacket.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "riding-gloves": {
+      "src": "/images/riding-gloves.webp",
+      "original": "/images/originals/riding-gloves.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "intercom": {
+      "src": "/images/intercom.webp",
+      "original": "/images/originals/intercom.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "editorial-rider": {
+      "src": "/images/editorial-rider.webp",
+      "original": "/images/originals/editorial-rider.png",
+      "width": 900,
+      "height": 1400
+    },
+    "hero-rider-v2": {
+      "src": "/images/hero-rider-v2.webp",
+      "original": "/images/originals/hero-rider-v2.png",
+      "width": 1600,
+      "height": 1050
+    },
+    "editorial-rider-v2": {
+      "src": "/images/editorial-rider-v2.webp",
+      "original": "/images/originals/editorial-rider-v2.png",
+      "width": 900,
+      "height": 1400
+    },
+    "helmet-orange-v2": {
+      "src": "/images/helmet-orange-v2.webp",
+      "original": "/images/originals/helmet-orange-v2.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "helmet-yellow-v2": {
+      "src": "/images/helmet-yellow-v2.webp",
+      "original": "/images/originals/helmet-yellow-v2.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "helmet-blue-v2": {
+      "src": "/images/helmet-blue-v2.webp",
+      "original": "/images/originals/helmet-blue-v2.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "helmet-navy-v2": {
+      "src": "/images/helmet-navy-v2.webp",
+      "original": "/images/originals/helmet-navy-v2.png",
+      "width": 1200,
+      "height": 1200
+    },
+    "editorial-rider-v3": {
+      "src": "/images/editorial-rider-v3-framed.webp",
+      "original": "/images/originals/editorial-rider-v3.png",
+      "width": 667,
+      "height": 1465
+    }
+  }
+}

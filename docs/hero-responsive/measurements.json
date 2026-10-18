@@ -1,0 +1,104 @@
+{
+  "before": [
+    {
+      "height": 844,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 390
+    },
+    {
+      "height": 1024,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 767
+    },
+    {
+      "height": 767,
+      "overflow": false,
+      "riderBelowHero": 205,
+      "riderHeadingOverlap": true,
+      "width": 1366
+    },
+    {
+      "height": 947,
+      "overflow": false,
+      "riderBelowHero": 160,
+      "riderHeadingOverlap": true,
+      "width": 1920
+    }
+  ],
+  "after": [
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 747,
+      "height": 740,
+      "heroHeight": 838,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 321
+    },
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 767,
+      "height": 844,
+      "heroHeight": 821,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 390
+    },
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 882,
+      "height": 1024,
+      "heroHeight": 936,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 767
+    },
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 541,
+      "height": 767,
+      "heroHeight": 663,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 1024
+    },
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 577,
+      "height": 767,
+      "heroHeight": 663,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 1366
+    },
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 649,
+      "height": 900,
+      "heroHeight": 796,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 1440
+    },
+    {
+      "clippedHeadline": false,
+      "ctaBottom": 709,
+      "height": 947,
+      "heroHeight": 844,
+      "overflow": false,
+      "riderBelowHero": 0,
+      "riderHeadingOverlap": false,
+      "width": 1920
+    }
+  ]
+}

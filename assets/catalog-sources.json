@@ -1,0 +1,69 @@
+{
+  "checkedOn": "2026-10-17",
+  "note": "Original brand/supplier photography preserved untouched. Display images are AI-processed background-extraction derivatives made with built-in ImageGen; product selection does not assert stock or prices.",
+  "assets": [
+    {
+      "name": "spyder-corsa-plain-v2",
+      "brand": "Spyder",
+      "model": "Corsa Plain V2",
+      "original": "spyder.png",
+      "sourcePage": "https://www.teamspyder.com/products/spyder-corsa-plain-v2",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1600/0925/files/A6500329800.png?v=1690517377",
+      "cutout": "spyder-corsa-plain-v2-cutout-v1.png"
+    },
+    {
+      "name": "gille-circuit-racer",
+      "brand": "Gille",
+      "model": "FF012 Circuit Racer",
+      "original": "gille-racer.jpg",
+      "sourcePage": "https://shopee.ph/Gille-FF012-Circuit-Racer-Full-Face-Dual-Visor-Motorcycle-Helmet-i.505955057.27316992114",
+      "imageUrl": "https://down-ph.img.susercontent.com/file/ph-11134207-7rasf-m2c8zb28k0xoe8",
+      "cutout": "gille-circuit-racer-cutout-v1.png"
+    },
+    {
+      "name": "nhk-gp-r-tech-mandalika",
+      "brand": "NHK Helmets",
+      "model": "GP R Tech Street — Mandalika",
+      "original": "nhk.jpg",
+      "sourcePage": "https://helmnhk.com/helmets/full-face/gp-r-tech-street/",
+      "imageUrl": "https://helmnhk.com/wp-content/uploads/2026/03/GP-R-TECH-RACE_MANDALIKA.jpg",
+      "cutout": "nhk-gp-r-tech-mandalika-cutout-v1.png"
+    },
+    {
+      "name": "mt-stinger-2-solid",
+      "brand": "MT Helmets",
+      "model": "Stinger 2 Solid",
+      "original": "mt.png",
+      "sourcePage": "https://www.teamspyder.com/products/mt-stinger-2-solid",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1600/0925/files/A6506227800.png?v=1717828072",
+      "cutout": "mt-stinger-2-solid-cutout-v1.png"
+    },
+    {
+      "name": "spyder-phantom",
+      "brand": "Spyder",
+      "model": "Phantom",
+      "original": "spyder-phantom.png",
+      "sourcePage": "https://www.teamspyder.com/products/spyder-phantom",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1600/0925/products/IMG_7180800.jpg?v=1632905388",
+      "cutout": "spyder-phantom-cutout-v1.png"
+    },
+    {
+      "name": "spyder-barrel",
+      "brand": "Spyder",
+      "model": "Barrel",
+      "original": "spyder-barrel.png",
+      "sourcePage": "https://www.teamspyder.com/products/spyder-barrel",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1600/0925/products/IMG_7625800.jpg?v=1633662807",
+      "cutout": "spyder-barrel-cutout-v1.png"
+    },
+    {
+      "name": "scs-s8-x",
+      "brand": "SCS",
+      "model": "S8-X",
+      "original": "scs-intercom-s8x.png",
+      "sourcePage": "https://www.teamspyder.com/products/scs-intercom-s8x",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1600/0925/files/1600x1600.jpg?v=1684803560",
+      "cutout": "scs-s8-x-cutout-v1.png"
+    }
+  ]
+}
