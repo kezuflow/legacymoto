@@ -36,9 +36,9 @@ export const business = {
   priceGuarantee: "Lowest-price guarantee",
 };
 
-// Set the final HTTPS origin before a public build; localhost is for local preview.
+// Keep public metadata on the canonical domain unless explicitly overridden.
 export const siteUrl = new URL(
-  new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").origin,
+  new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.legacymoto.ph").origin,
 );
 export const pageTitle =
   "Cebu Helmets | Lowest-Price Guarantee | LegacyMoto";

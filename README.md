@@ -63,7 +63,9 @@ The brand names are supplied business content. Product cards use real model name
 
 ## Deployment preparation
 
-The page can run on a standard Next.js host. Set `NEXT_PUBLIC_SITE_URL` to the final **HTTPS origin before building**. Canonical URLs, Open Graph metadata, JSON-LD, robots, and the sitemap use this one setting. The landing page allows crawling and indexing; the sitemap contains its single canonical homepage URL. `.env.example` shows the localhost development default, which must be replaced before public deployment. No deployment has been configured or performed.
+The page can run on a standard Next.js host. Canonical URLs, Open Graph metadata, JSON-LD, robots, and the sitemap default to **https://www.legacymoto.ph**. `NEXT_PUBLIC_SITE_URL` can override this origin before building; `.env.example` shows the production value. If this setting changes in Vercel, redeploy so the generated metadata and crawler files pick it up. The landing page allows crawling and indexing; the sitemap contains its single canonical homepage URL.
+
+After deployment, submit `https://www.legacymoto.ph/sitemap.xml` in Google Search Console's Sitemaps report. `https://www.legacymoto.ph/robots.txt` also advertises this sitemap. Run `pnpm test:seo` and, after `pnpm build`, `node scripts/check-seo.mjs --rendered` to verify the generated canonical URL, social metadata, sitemap, and robots declaration agree.
 
 ## Search and business content
 

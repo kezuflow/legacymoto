@@ -16,7 +16,7 @@ const probe = `
 `;
 
 for (const [origin, expectedOrigin] of [
-  ["", "http://localhost:3000"],
+  ["", "https://www.legacymoto.ph"],
   ["http://localhost:3000", "http://localhost:3000"],
   ["https://example.test", "https://example.test"],
   ["https://example.test/subdirectory?preview=1", "https://example.test"],
@@ -83,6 +83,27 @@ if (process.argv.includes("--rendered")) {
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/);
   assert.ok(canonical, "Canonical link is present");
   assert.equal(new URL(canonical[1]).href, new URL(graph[0].url).href);
+  const expectedOrigin = new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.legacymoto.ph",
+  ).origin;
+  assert.equal(new URL(canonical[1]).href, `${expectedOrigin}/`);
+  const openGraphUrl = html.match(/property="og:url" content="([^"]+)"/);
+  assert.ok(openGraphUrl, "Open Graph URL is present");
+  assert.equal(new URL(openGraphUrl[1]).href, `${expectedOrigin}/`);
+  for (const name of ["og:image", "twitter:image"]) {
+    const image = html.match(new RegExp(`<meta (?:property|name)="${name}" content="([^"]+)"`));
+    assert.ok(image, `${name} is present`);
+    assert.equal(image[1], `${expectedOrigin}/social-preview.png`);
+  }
+  const sitemap = await readFile(new URL("../.next/server/app/sitemap.xml.body", import.meta.url), "utf8");
+  assert.deepEqual(
+    [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]),
+    [`${expectedOrigin}/`],
+    "Sitemap contains the canonical homepage",
+  );
+  const robots = await readFile(new URL("../.next/server/app/robots.txt.body", import.meta.url), "utf8");
+  assert.ok(robots.includes(`Sitemap: ${expectedOrigin}/sitemap.xml`));
+  assert.match(robots, /User-Agent: \*\r?\nAllow: \//);
   const text = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, " ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
   assert.match(text, /suggested retail prices \(SRP\)/);
   assert.match(text, /Do you accept wholesale helmet enquiries in Cebu\?/);
@@ -94,5 +115,5 @@ if (process.argv.includes("--rendered")) {
   for (const [, anchor] of html.matchAll(/href="#([^"]+)"/g)) {
     assert.ok(html.includes(`id="${anchor}"`), `Missing section: ${anchor}`);
   }
-  console.log("PASS rendered SEO: title, description, single H1, wholesale/SRP/guarantee copy, ten FAQs, schema and section links");
+  console.log("PASS rendered SEO: canonical, social URLs, sitemap, robots, title, description, single H1, wholesale/SRP/guarantee copy, ten FAQs, schema and section links");
 }
